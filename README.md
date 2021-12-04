@@ -51,7 +51,15 @@ Por favor escribe el error absoluto promedio del modelo aqui:
 
 ## Pregunta 5 : Resultados
 
-Presenta una tabla con el resultado del error absoluto promedio para cada uno de los modelos implementados en la parte 1 a 4,
+Presenta una tabla con el resultado del error absoluto promedio para cada uno de los modelos implementados en la parte 1 a 4:
+
+|                                     |	  RESULTADO	  |
+|-------------------------------------|---------------|
+|           Regresión lineal          |	38.05918286986965 |
+|           Regresión lineal          |	{'Activision': 16.095832298653903, 'Nintendo': 38.05918286986965, 'Electronic Arts': 25.341617283393997, 'Sony Computer Entertainment': 20.229998446907125, 'Ubisoft': 16.184825864930872} |
+|             Red Neuronal            | Contenido 2.3 |
+| Random Forest with extreme boosting | Contenido 2.3 |
+|                ARIMA                | Contenido 2.3 |
 
 * Si solo un modelo se pudiera implementar en produccion , ¿Cuál recomendarias? ¿Porqué?
 
