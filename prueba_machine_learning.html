@@ -2972,12 +2972,16 @@ summary {
 <li>Utiliza la base de datos Pregunta1.csv para construir un código <strong>reutilizable</strong> que; primero filtre las filas cuya columna <strong>Publisher sea igual a “Nintendo”</strong>. Con esta sub-base calcule la regresion de la columna Global_Sales como variable objetivo a predecir ‘Y’ contra las demas columnas numéricas (es decir de Action a Strategy). Después se deberá obtener la serie de predicciónes de “Global_Sales” <span class="math inline">\(\hat{Y}\)</span> y con esta calucular el <strong>error medio absoluto</strong> = <span class="math display">\[\frac{\sum_{t=1..T}{|y_t-\hat{y}_t}|}{T}\]</span></li>
 </ol>
 <p>Por favor muestra el valor del Error medio absoluto aqui:</p>
-<p>{'Nintendo': {'Action': 35.74, 'Platform': 35.87, 'Adventure': 20.17, 'Puzzle': 19.13, 'Shooter': 16.66, 'Misc': 25.89, 'Sports': 34.67, 'Racing': 22.17, 'Simulation': 16.71, 'Fighting': 55.13, 'Role-Playing': 14.79, 'Strategy': 21.4}}</p>
+<p>Nintendo: 38.05918286986965</p>
 <ol start="2" style="list-style-type: lower-alpha">
 <li>Utiliza el codigo anterior ( o modifícalo si asi lo consideras) para correr ese mismo ejercicio <strong>para cada uno de los niveles de la variable “Publisher”</strong>. En este ejercicio lo que buscamos es una lista de 5 elementos numericos donde cada uno contenga el valor del error medio absoluto del la venta del Publisher “i” vs la prediccion de esa venta por elmodelo “i”.</li>
 </ol>
 <p>Por favor muestra la lista (nombrada) o diccionario aqui:</p>
-<p>{'Nintendo': {'Action': 35.74, 'Platform': 35.87, 'Adventure': 20.17, 'Puzzle': 19.13, 'Shooter': 16.66, 'Misc': 25.89, 'Sports': 34.67, 'Racing': 22.17, 'Simulation': 16.71, 'Fighting': 55.13, 'Role-Playing': 14.79, 'Strategy': 21.4}, 'Activision': {'Action': 6.08, 'Platform': 18.23, 'Adventure': 13.71, 'Puzzle': 31.68, 'Shooter': 10.78, 'Misc': 9.34, 'Sports': 17.54, 'Racing': 15.35, 'Simulation': 15.25, 'Fighting': 24.11, 'Role-Playing': 21.55, 'Strategy': 24.64}, 'Electronic Arts': {'Action': 14.57, 'Platform': 29.45, 'Adventure': 24.65, 'Puzzle': 14.68, 'Shooter': 21.17, 'Misc': 16.84, 'Sports': 14.3, 'Racing': 17.48, 'Simulation': 15.62, 'Fighting': 24.71, 'Role-Playing': 16.42, 'Strategy': 32.56}, 'Sony Computer Entertainment': {'Action': 10.04, 'Platform': 7.03, 'Adventure': 11.2, 'Puzzle': 11.32, 'Shooter': 8.43, 'Misc': 7.6, 'Sports': 7.32, 'Racing': 8.35, 'Simulation': 9.24, 'Fighting': 12.59, 'Role-Playing': 9.91, 'Strategy': 8.48}, 'Ubisoft': {'Action': 14.51, 'Platform': 18.45, 'Adventure': 16.12, 'Puzzle': 8.04, 'Shooter': 17.1, 'Misc': 9.33, 'Sports': 17.19, 'Racing': 16.43, 'Simulation': 11.67, 'Fighting': 18.95, 'Role-Playing': 22.8, 'Strategy': 13.3}}</p>
+<p>{'Activision': 16.095832298653903,
+  'Nintendo': 38.05918286986965,
+  'Electronic Arts': 25.341617283393997,
+  'Sony Computer Entertainment': 20.229998446907125,
+  'Ubisoft': 16.184825864930872}</p>
 <p><em>Las llaves o nombres deben corresponder al nivel de la variable Publisher para el cual se ajusto el modelo</em></p>
 </div>
 <div id="pregunta-2-red-neuronal" class="section level1">
