@@ -2,8 +2,7 @@
 
 > Organización de las carpetas:
 > * En la carpeta HTML se encuentra el html con las respuestas.
-> * En la carpeta Preguntas viene el código de cada uno de los problemas.
-
+> * En la carpeta Preguntas viene el código de cada una de las preguntas.
 ## Pregunta 1: Regresión lineal
 * Utiliza la base de datos Pregunta1.csv para construir un código reutilizable que; primero filtre las filas cuya columna Publisher sea igual a “Nintendo”. Con esta sub-base calcule la regresion de la columna Global_Sales como variable objetivo a predecir ‘Y’ contra las demas columnas numéricas (es decir de Action a Strategy). Después se deberá obtener la serie de predicciónes de “Global_Sales” Y^ y con esta calucular el error medio absoluto.
 
