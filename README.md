@@ -32,7 +32,7 @@ El bosque aleatorio tendrá que predecir el valor de la variable Global_Sales �
 
 Ajusta el modelo y obten Y. Despues calcula el error absoluto promedio de este modelo.
 
-Por favor escribe el error absoluto promedio del modelo aqui: 24.785614
+Por favor escribe el error absoluto promedio del modelo aqui: 21.792384694417315
 
 # Pregunta 4 : ARIMA’s
 
