@@ -58,4 +58,26 @@ Presenta una tabla con el resultado del error absoluto promedio para cada uno de
 
 * Si solo un modelo se pudiera implementar en produccion , ¿Cuál recomendarias? ¿Porqué?
 
-* ¿Qué mejorarías en los modelos para que se ajusten mejor al data set utlizado? (por ejemplo para tomar en cuenta la correlación entre observaciones)
+Primero hagamos un pequeño analisis de usar cada uno de los modelos.
+
+Una desventaja el modelo de regresión múltiple generalmente se reduce a los datos que se usan (datos incompletos). Pero es más fácil de implementar, interpretar y eficiente de entrenar.
+
+Las redes neuronales requerirán mucha información para poder entrenarla de mejor manera y que realmente sea efectiva. La red neuronal simplemente diezmará la capacidad de interpretación de sus características hasta el punto en que deje de tener sentido por el bien del rendimiento.
+
+Random Forest es menos costoso que la red neuronal desde el punto de vista computacional. Una de las ventajas es que automatiza los valores perdidos presentes en los datos. 
+
+Algunas de las principales desventajas de los pronósticos ARIMA son que algunas de las técnicas tradicionales de identificación de modelos para identificar el modelo correcto de la clase de modelos posibles son difíciles de comprender y costosas desde el punto de vista computacional.
+
+Tomando en cuenta la dificultad de implementar (a mayor dificultad mayor tiempo para hacer la implementación, claro sin perder de vista lo importante que es los resultados), los resultados obtenidos (el error) y el costo computacional el modelo que recomendaría es Random Forest.
+
+* ¿Qué mejorarías en los modelos para que se ajusten mejor al data set utlizado?
+  
+   * **Aumentar el tamaño del dataset para poder entrenar de mejor manera cada modelo.**
+   * Reducción dimensional el cual reduce el espacio de tiempo y almacenamiento requerido.
+   * Regularización (en aprendizaje automático).
+   * **Validación cruzada (técnica que se uso para las preguntas dadas).**
+   * Ver la distribución de variables en data set para ver la forma de los datos y ver si está sesgada la distribución.
+   * Ver las relaciones entre variables.
+   * Ver si los datos tienen o no valores atípicos o puntos inusuales que puedan indicar problemas de calidad de los datos.
+   * Ver si los datos tienen o no patrones temporales.
+   
